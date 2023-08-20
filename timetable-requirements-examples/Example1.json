@@ -1,0 +1,642 @@
+{
+  "lecturersCount" : 10,
+  "academicGroupsCount" : 5,
+  "placesCount" : 10,
+  "lessonRequirementsList" : [ {
+    "lecturerIndex" : 2,
+    "academicGroupIndexes" : [ 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 0, 1, 2 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 4,
+    "academicGroupIndexes" : [ 1, 3 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 0, 1, 2, 3 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 2,
+    "academicGroupIndexes" : [ 0, 1, 3, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 3,
+    "academicGroupIndexes" : [ 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 5,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 8,
+    "academicGroupIndexes" : [ 0, 2 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 6,
+    "academicGroupIndexes" : [ 0, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 1, 2, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 2,
+    "academicGroupIndexes" : [ 1, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 3,
+    "academicGroupIndexes" : [ 0, 1, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 9,
+    "academicGroupIndexes" : [ 2 ],
+    "lessonsCountPerWeek" : 2.5
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 0, 1, 2, 3 ],
+    "lessonsCountPerWeek" : 1.5
+  }, {
+    "lecturerIndex" : 5,
+    "academicGroupIndexes" : [ 2, 3 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 2 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 1,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 3,
+    "academicGroupIndexes" : [ 0, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 2, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 9,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 5,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 9,
+    "academicGroupIndexes" : [ 0, 3, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 2, 3 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 5,
+    "academicGroupIndexes" : [ 1, 2, 3 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 0, 3 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 9,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 1.5
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 0, 1, 2, 3 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 4,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 2.5
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 0, 3 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 9,
+    "academicGroupIndexes" : [ 0, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 1.5
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 1, 2, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 6,
+    "academicGroupIndexes" : [ 0, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 8,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 2,
+    "academicGroupIndexes" : [ 0 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 5,
+    "academicGroupIndexes" : [ 3 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 6,
+    "academicGroupIndexes" : [ 0, 1, 2, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 1,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 5,
+    "academicGroupIndexes" : [ 0, 1, 2 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 4,
+    "academicGroupIndexes" : [ 0, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 8,
+    "academicGroupIndexes" : [ 0 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 8,
+    "academicGroupIndexes" : [ 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 1,
+    "academicGroupIndexes" : [ 2 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 5,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 4,
+    "academicGroupIndexes" : [ 1, 2, 3 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 1, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 8,
+    "academicGroupIndexes" : [ 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 0 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 4,
+    "academicGroupIndexes" : [ 0, 1, 3 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 9,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 5,
+    "academicGroupIndexes" : [ 0, 1, 2, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 1,
+    "academicGroupIndexes" : [ 0, 1, 2, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 2,
+    "academicGroupIndexes" : [ 0, 1, 3, 4 ],
+    "lessonsCountPerWeek" : 1.5
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 0, 1, 2, 3 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 4,
+    "academicGroupIndexes" : [ 1, 3 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 8,
+    "academicGroupIndexes" : [ 0, 1, 3, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 9,
+    "academicGroupIndexes" : [ 3 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 3,
+    "academicGroupIndexes" : [ 0, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 8,
+    "academicGroupIndexes" : [ 0, 1, 2, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 1, 2 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 8,
+    "academicGroupIndexes" : [ 0, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 5,
+    "academicGroupIndexes" : [ 0 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 0, 3, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 8,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 6,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 1,
+    "academicGroupIndexes" : [ 0, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 0, 3 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 0, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 2,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 8,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 2, 3, 4 ],
+    "lessonsCountPerWeek" : 2.5
+  }, {
+    "lecturerIndex" : 6,
+    "academicGroupIndexes" : [ 0 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 4,
+    "academicGroupIndexes" : [ 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 6,
+    "academicGroupIndexes" : [ 0, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 2,
+    "academicGroupIndexes" : [ 2, 3 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 5,
+    "academicGroupIndexes" : [ 0, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 8,
+    "academicGroupIndexes" : [ 0, 1, 4 ],
+    "lessonsCountPerWeek" : 1.5
+  }, {
+    "lecturerIndex" : 5,
+    "academicGroupIndexes" : [ 0, 1, 3 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 4,
+    "academicGroupIndexes" : [ 0 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 5,
+    "academicGroupIndexes" : [ 2, 3 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 2, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 3,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 5,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 1,
+    "academicGroupIndexes" : [ 1, 3 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 6,
+    "academicGroupIndexes" : [ 2 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 3,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 4,
+    "academicGroupIndexes" : [ 0, 1, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 4,
+    "academicGroupIndexes" : [ 0, 2, 3 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 1,
+    "academicGroupIndexes" : [ 1, 2 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 4,
+    "academicGroupIndexes" : [ 2 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 4,
+    "academicGroupIndexes" : [ 0, 3 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 0, 1, 3 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 1,
+    "academicGroupIndexes" : [ 1 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 5,
+    "academicGroupIndexes" : [ 0, 1, 2 ],
+    "lessonsCountPerWeek" : 1.5
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 4,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 9,
+    "academicGroupIndexes" : [ 0, 2 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 9,
+    "academicGroupIndexes" : [ 0, 2, 4 ],
+    "lessonsCountPerWeek" : 2.5
+  }, {
+    "lecturerIndex" : 6,
+    "academicGroupIndexes" : [ 0, 1, 2 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 1 ],
+    "lessonsCountPerWeek" : 1.5
+  }, {
+    "lecturerIndex" : 9,
+    "academicGroupIndexes" : [ 1, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 1 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 2,
+    "academicGroupIndexes" : [ 1, 2, 3 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 1,
+    "academicGroupIndexes" : [ 1 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 6,
+    "academicGroupIndexes" : [ 0, 1, 3, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 0, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 0, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 1,
+    "academicGroupIndexes" : [ 0, 1, 2, 4 ],
+    "lessonsCountPerWeek" : 2.5
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 1,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 2.5
+  }, {
+    "lecturerIndex" : 1,
+    "academicGroupIndexes" : [ 3, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 4,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 2.5
+  }, {
+    "lecturerIndex" : 8,
+    "academicGroupIndexes" : [ 1 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 3,
+    "academicGroupIndexes" : [ 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 2,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 1,
+    "academicGroupIndexes" : [ 0, 3 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 6,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 9,
+    "academicGroupIndexes" : [ 0, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 1,
+    "academicGroupIndexes" : [ 3 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 8,
+    "academicGroupIndexes" : [ 0, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 0, 3 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 8,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 3,
+    "academicGroupIndexes" : [ 0, 1, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 9,
+    "academicGroupIndexes" : [ 1, 4 ],
+    "lessonsCountPerWeek" : 2.5
+  }, {
+    "lecturerIndex" : 9,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 5,
+    "academicGroupIndexes" : [ 2 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 3,
+    "academicGroupIndexes" : [ 0, 1, 3, 4 ],
+    "lessonsCountPerWeek" : 1.5
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 2 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 8,
+    "academicGroupIndexes" : [ 0, 3 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 5,
+    "academicGroupIndexes" : [ 0, 2 ],
+    "lessonsCountPerWeek" : 2.5
+  }, {
+    "lecturerIndex" : 3,
+    "academicGroupIndexes" : [ 1, 2, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 3,
+    "academicGroupIndexes" : [ 1, 3, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 9,
+    "academicGroupIndexes" : [ 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 3,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 4,
+    "academicGroupIndexes" : [ 1 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 4,
+    "academicGroupIndexes" : [ 0, 1, 2, 3 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 3,
+    "academicGroupIndexes" : [ 0, 1, 2 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 5,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 2,
+    "academicGroupIndexes" : [ 3 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 2,
+    "academicGroupIndexes" : [ 0, 1, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 2 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 3 ],
+    "lessonsCountPerWeek" : 1.5
+  }, {
+    "lecturerIndex" : 5,
+    "academicGroupIndexes" : [ 1, 3, 4 ],
+    "lessonsCountPerWeek" : 2.5
+  }, {
+    "lecturerIndex" : 6,
+    "academicGroupIndexes" : [ 2 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 3,
+    "academicGroupIndexes" : [ 1, 2 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 0, 1, 3, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 1,
+    "academicGroupIndexes" : [ 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 1.0
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 9,
+    "academicGroupIndexes" : [ 0, 3, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 7,
+    "academicGroupIndexes" : [ 0, 1, 2, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 9,
+    "academicGroupIndexes" : [ 0, 1, 2, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 0,
+    "academicGroupIndexes" : [ 0, 1, 2 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 4,
+    "academicGroupIndexes" : [ 0, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 3,
+    "academicGroupIndexes" : [ 2, 3 ],
+    "lessonsCountPerWeek" : 2.0
+  }, {
+    "lecturerIndex" : 8,
+    "academicGroupIndexes" : [ 0, 1, 2, 3, 4 ],
+    "lessonsCountPerWeek" : 0.5
+  }, {
+    "lecturerIndex" : 4,
+    "academicGroupIndexes" : [ 1 ],
+    "lessonsCountPerWeek" : 2.5
+  } ]
+}
