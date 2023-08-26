@@ -139,7 +139,8 @@ public class TimetableGenerationService {
 
         EvaluatedTimetable bestTimetable = null;
         double penalty = Double.MAX_VALUE;
-        for (int i = 0; penalty > 0 && i < iterationsMaxCount; i++) {
+        int i = 0;
+        for (; penalty > 0 && i < iterationsMaxCount; i++) {
             crossover(timetableRequirements, population);
             mutation(timetableRequirements, population);
 //            population = repair(timetableRequirements, population);
@@ -147,8 +148,10 @@ public class TimetableGenerationService {
 
             bestTimetable = population.get(0);
             penalty = bestTimetable.getPenalty();
-            System.out.println(i + " - penalty: " + penalty);
+//            System.out.println(i + " - penalty: " + penalty);
+            System.out.println(penalty);
         }
+        System.out.println("i = " + i);
 
         return bestTimetable;
     }
@@ -313,9 +316,7 @@ public class TimetableGenerationService {
                 }
 
                 if (timeWindowDayCount > 0) {
-                    if (timeWindowDayCount > 1) {
-                        timeWindowDayCount = Math.pow(timeWindowDayCount, lecturerTimeWindowPenaltyDayPower);
-                    }
+                    timeWindowDayCount = Math.pow(timeWindowDayCount, lecturerTimeWindowPenaltyDayPower);
 
                     timeWindowCount += timeWindowDayCount;
 
@@ -324,9 +325,7 @@ public class TimetableGenerationService {
             }
 
             if (conflictTimeSlotsCount > 0) {
-                if (conflictTimeSlotsCount > 1) {
-                    conflictTimeSlotsCount = Math.pow(conflictTimeSlotsCount, lecturerConflictTimeSlotPenaltyPower);
-                }
+                conflictTimeSlotsCount = Math.pow(conflictTimeSlotsCount, lecturerConflictTimeSlotPenaltyPower);
 
                 double conflictTimeSlotPenalty = conflictTimeSlotsCount * lecturerConflictTimeSlotPenalty;
                 penalty += conflictTimeSlotPenalty;
@@ -338,9 +337,7 @@ public class TimetableGenerationService {
             }
 
             if (timeWindowCount > 0) {
-                if (timeWindowCount > 1) {
-                    timeWindowCount = Math.pow(timeWindowCount, lecturerTimeWindowPenaltyPower);
-                }
+                timeWindowCount = Math.pow(timeWindowCount, lecturerTimeWindowPenaltyPower);
 
                 double timeWindowPenalty = timeWindowCount * lecturerTimeWindowPenalty;
                 penalty += timeWindowPenalty;
@@ -417,9 +414,7 @@ public class TimetableGenerationService {
                 }
 
                 if (timeWindowDayCount > 0) {
-                    if (timeWindowDayCount > 1) {
-                        timeWindowDayCount = Math.pow(timeWindowDayCount, academicGroupTimeWindowPenaltyDayPower);
-                    }
+                    timeWindowDayCount = Math.pow(timeWindowDayCount, academicGroupTimeWindowPenaltyDayPower);
 
                     timeWindowCount += timeWindowDayCount;
 
@@ -428,9 +423,7 @@ public class TimetableGenerationService {
             }
 
             if (conflictTimeSlotsCount > 0) {
-                if (conflictTimeSlotsCount > 1) {
-                    conflictTimeSlotsCount = Math.pow(conflictTimeSlotsCount, academicGroupConflictTimeSlotPenaltyPower);
-                }
+                conflictTimeSlotsCount = Math.pow(conflictTimeSlotsCount, academicGroupConflictTimeSlotPenaltyPower);
 
                 double conflictTimeSlotPenalty = conflictTimeSlotsCount * academicGroupConflictTimeSlotPenalty;
                 penalty += conflictTimeSlotPenalty;
@@ -442,9 +435,7 @@ public class TimetableGenerationService {
             }
 
             if (timeWindowCount > 0) {
-                if (timeWindowCount > 1) {
-                    timeWindowCount = Math.pow(timeWindowCount, academicGroupTimeWindowPenaltyPower);
-                }
+                timeWindowCount = Math.pow(timeWindowCount, academicGroupTimeWindowPenaltyPower);
 
                 double timeWindowPenalty = timeWindowCount * academicGroupTimeWindowPenalty;
                 penalty += timeWindowPenalty;
@@ -506,9 +497,7 @@ public class TimetableGenerationService {
             }
 
             if (conflictTimeSlotsCount > 0) {
-                if (conflictTimeSlotsCount > 1) {
-                    conflictTimeSlotsCount = Math.pow(conflictTimeSlotsCount, placeConflictTimeSlotPenaltyPower);
-                }
+                conflictTimeSlotsCount = Math.pow(conflictTimeSlotsCount, placeConflictTimeSlotPenaltyPower);
 
                 double conflictTimeSlotPenalty = conflictTimeSlotsCount * placeConflictTimeSlotPenalty;
                 penalty += conflictTimeSlotPenalty;
@@ -676,7 +665,7 @@ public class TimetableGenerationService {
         population.addAll(mutatedPopulation);
     }
 
-    private  List<EvaluatedTimetable> repair(TimetableRequirements timetableRequirements, List<EvaluatedTimetable> population) {
+    private List<EvaluatedTimetable> repair(TimetableRequirements timetableRequirements, List<EvaluatedTimetable> population) {
 //        List<EvaluatedTimetable> repairedTimetables = new ArrayList<>(population.size());
 //        for (EvaluatedTimetable timetable: population) {
 //            repairedTimetables.add(repair(timetableRequirements, timetable));
@@ -861,27 +850,21 @@ public class TimetableGenerationService {
                 }
 
                 if (timeWindowDayCount > 0) {
-                    if (timeWindowDayCount > 1) {
-                        timeWindowDayCount = Math.pow(timeWindowDayCount, lecturerTimeWindowPenaltyDayPower);
-                    }
+                    timeWindowDayCount = Math.pow(timeWindowDayCount, lecturerTimeWindowPenaltyDayPower);
 
                     timeWindowCount += timeWindowDayCount;
                 }
             }
 
             if (conflictTimeSlotsCount > 0) {
-                if (conflictTimeSlotsCount > 1) {
-                    conflictTimeSlotsCount = Math.pow(conflictTimeSlotsCount, lecturerConflictTimeSlotPenaltyPower);
-                }
+                conflictTimeSlotsCount = Math.pow(conflictTimeSlotsCount, lecturerConflictTimeSlotPenaltyPower);
 
                 double conflictTimeSlotPenalty = conflictTimeSlotsCount * lecturerConflictTimeSlotPenalty;
                 penalty += conflictTimeSlotPenalty;
             }
 
             if (timeWindowCount > 0) {
-                if (timeWindowCount > 1) {
-                    timeWindowCount = Math.pow(timeWindowCount, lecturerTimeWindowPenaltyPower);
-                }
+                timeWindowCount = Math.pow(timeWindowCount, lecturerTimeWindowPenaltyPower);
 
                 double timeWindowPenalty = timeWindowCount * lecturerTimeWindowPenalty;
                 penalty += timeWindowPenalty;
@@ -936,27 +919,21 @@ public class TimetableGenerationService {
                 }
 
                 if (timeWindowDayCount > 0) {
-                    if (timeWindowDayCount > 1) {
-                        timeWindowDayCount = Math.pow(timeWindowDayCount, academicGroupTimeWindowPenaltyDayPower);
-                    }
+                    timeWindowDayCount = Math.pow(timeWindowDayCount, academicGroupTimeWindowPenaltyDayPower);
 
                     timeWindowCount += timeWindowDayCount;
                 }
             }
 
             if (conflictTimeSlotsCount > 0) {
-                if (conflictTimeSlotsCount > 1) {
-                    conflictTimeSlotsCount = Math.pow(conflictTimeSlotsCount, academicGroupConflictTimeSlotPenaltyPower);
-                }
+                conflictTimeSlotsCount = Math.pow(conflictTimeSlotsCount, academicGroupConflictTimeSlotPenaltyPower);
 
                 double conflictTimeSlotPenalty = conflictTimeSlotsCount * academicGroupConflictTimeSlotPenalty;
                 penalty += conflictTimeSlotPenalty;
             }
 
             if (timeWindowCount > 0) {
-                if (timeWindowCount > 1) {
-                    timeWindowCount = Math.pow(timeWindowCount, academicGroupTimeWindowPenaltyPower);
-                }
+                timeWindowCount = Math.pow(timeWindowCount, academicGroupTimeWindowPenaltyPower);
 
                 double timeWindowPenalty = timeWindowCount * academicGroupTimeWindowPenalty;
                 penalty += timeWindowPenalty;
@@ -1006,9 +983,7 @@ public class TimetableGenerationService {
             }
 
             if (conflictTimeSlotsCount > 0) {
-                if (conflictTimeSlotsCount > 1) {
-                    conflictTimeSlotsCount = Math.pow(conflictTimeSlotsCount, placeConflictTimeSlotPenaltyPower);
-                }
+                conflictTimeSlotsCount = Math.pow(conflictTimeSlotsCount, placeConflictTimeSlotPenaltyPower);
 
                 double conflictTimeSlotPenalty = conflictTimeSlotsCount * placeConflictTimeSlotPenalty;
                 penalty += conflictTimeSlotPenalty;

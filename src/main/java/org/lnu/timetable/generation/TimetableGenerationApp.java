@@ -23,9 +23,9 @@ public class TimetableGenerationApp implements CommandLineRunner {
 //        timetableGenerationDemo.generateTimetableRequirementsExample3();
 //        timetableGenerationDemo.generateTimetableRequirementsExample4();
 
-//        timetableGenerationDemo.timetableGenerationExample1();
+        timetableGenerationDemo.timetableGenerationExample1();
 //        timetableGenerationDemo.timetableGenerationExample2();
 //        timetableGenerationDemo.timetableGenerationExample3();
-        timetableGenerationDemo.timetableGenerationExample4();
+//        timetableGenerationDemo.timetableGenerationExample4();
     }
 }
